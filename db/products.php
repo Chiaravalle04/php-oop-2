@@ -25,7 +25,7 @@
     $products[] = new Game (
         'https://m.media-amazon.com/images/I/71oQNLRKcWL._AC_SX679_PIbundle-3,TopRight,0,0_SH20_.jpg',
         'Nobleza - Palla per Cani',
-        'Palla per cani ad alto rimbalzo progettata con un meccanismo suono nascosto e emette un buon suono quando viene schiacciata per un maggiore divertimento durante il gioco. Ideale per giochi interattivi per animali domestici.',
+        'Palla per cani ad alto rimbalzo.',
         12.99,
         '<i class="fa-solid fa-dog"></i>',
         'Gomma',

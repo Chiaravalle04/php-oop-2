@@ -57,6 +57,8 @@
 
                                 <?php $product->printDetailsProduct() ?>
 
+                                <button id="add-to-chart">Aggiungi al carrello</button>
+
                             </div>
 
                         </div>

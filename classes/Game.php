@@ -27,11 +27,11 @@
 
             echo '<h2>' . $this->name . '</h2>';
             echo '<p>' . $this->description . '</p>';
-            echo '<p>€' . $this->price . '</p>';
-            echo '<p>Categoria:'. ' ' . $this->category . '</p>';
-            echo '<p>Tipo:'. ' '  . Game::$type . '</p>';
-            echo '<p>Materiale:'. ' ' . $this->material . '</p>';
-            echo '<p>Resistenza:'. ' ' . $this->strength . '</p>';
+            echo '<p><b>€' . $this->price . '</b></p>';
+            echo '<p><b>Categoria:</b>'. ' ' . $this->category . '</p>';
+            echo '<p><b>Tipo:</b>'. ' '  . Game::$type . '</p>';
+            echo '<p><b>Materiale:</b>'. ' ' . $this->material . '</p>';
+            echo '<p><b>Resistenza:</b>'. ' ' . $this->strength . '</p>';
             
         }
 

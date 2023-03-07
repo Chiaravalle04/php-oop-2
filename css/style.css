@@ -100,8 +100,28 @@ main {
 }
 
 .flip-card-back {
-    background-color: #7EE081;
-    color: white;
+    position: relative;
+    background-color: #FFFFFF;
+    color: black;
     transform: rotateY(180deg);
     padding: 25px;
+}
+
+.flip-card-back h2, b {
+    color: #ffa500;
+}
+
+#add-to-chart {
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #ffa500;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
 }
