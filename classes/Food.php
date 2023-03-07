@@ -13,7 +13,16 @@
             parent::__construct($_image, $_name, $_description, $_price, $_category);
 
             $this->size = $_size;
-            $this->productionDate = $_productionDate;
+
+            if ($_productionDate < (date('Y') - 1)) {
+
+                throw new Exception('Anno di produzione NON valido');
+
+            } else {
+                
+                $this->productionDate = $_productionDate;
+
+            };
 
         }
 
