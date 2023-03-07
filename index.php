@@ -41,125 +41,29 @@
 
             <div class="container-cards">
 
-                <div class="card">
+                <?php foreach ($products as $product) { ?>
 
-                    <div class="flip-card-inner">
+                    <div class="card">
 
-                        <div class="flip-card-front">
+                        <div class="flip-card-inner">
 
-                            <?php $product1->printImgProduct() ?>
+                            <div class="flip-card-front">
 
-                        </div>
+                                <?php $product->printImgProduct() ?>
 
-                        <div class="flip-card-back">
+                            </div>
 
-                            <?php $product1->printDetailsProduct() ?>
+                            <div class="flip-card-back">
 
-                        </div>
+                                <?php $product->printDetailsProduct() ?>
 
-                    </div>
-
-                </div>
-
-                <div class="card">
-
-                    <div class="flip-card-inner">
-
-                        <div class="flip-card-front">
-
-                            <?php $product2->printImgProduct() ?>
-
-                        </div>
-
-                        <div class="flip-card-back">
-
-                            <?php $product2->printDetailsProduct() ?>
+                            </div>
 
                         </div>
 
                     </div>
 
-                </div>
-
-                <div class="card">
-
-                    <div class="flip-card-inner">
-
-                        <div class="flip-card-front">
-
-                            <?php $product3->printImgProduct() ?>
-
-                        </div>
-
-                        <div class="flip-card-back">
-
-                            <?php $product3->printDetailsProduct() ?>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="card">
-
-                    <div class="flip-card-inner">
-
-                        <div class="flip-card-front">
-
-                            <?php $product4->printImgProduct() ?>
-
-                        </div>
-
-                        <div class="flip-card-back">
-
-                            <?php $product4->printDetailsProduct() ?>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="card">
-
-                    <div class="flip-card-inner">
-
-                        <div class="flip-card-front">
-
-                            <?php $product5->printImgProduct() ?>
-
-                        </div>
-
-                        <div class="flip-card-back">
-
-                            <?php $product5->printDetailsProduct() ?>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="card">
-
-                    <div class="flip-card-inner">
-
-                        <div class="flip-card-front">
-
-                            <?php $product6->printImgProduct() ?>
-
-                        </div>
-
-                        <div class="flip-card-back">
-
-                            <?php $product6->printDetailsProduct() ?>
-
-                        </div>
-
-                    </div>
-
-                </div>
+                <?php } ?>
 
             </div>
 
