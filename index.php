@@ -57,6 +57,20 @@
 
                                 <?php $product->printDetailsProduct() ?>
 
+                                <?php $product->setAvailaibilty(true) ?>
+
+                                <?php if ($product->getAvailaibilty() == true) {
+
+                                        echo '<p><b>Disponibile <i class="fa-solid fa-check"></i> </b></p>';
+
+                                    } else {
+
+                                        echo '<p><b>Non Disponibile <i class="fa-solid fa-xmark"></i> </b></p>';
+
+                                    }
+
+                                ?>
+
                                 <button id="add-to-chart">Aggiungi al carrello</button>
 
                             </div>

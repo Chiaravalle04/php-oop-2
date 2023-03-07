@@ -1,6 +1,9 @@
 <?php
 
+    require_once __DIR__ . '/../traits/availability.php';
     class Product {
+
+        use Availaibilty;
 
         public $image;
         public $name;

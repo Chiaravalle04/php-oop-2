@@ -45,7 +45,7 @@
     $products[] = new Kennel (
         'https://m.media-amazon.com/images/I/71rl+5OppBL._AC_SX522_.jpg',
         'Wzryjs - Cuccia per gatti',
-        'Realizzata in peluche corto di alta qualità e riempita con spugna, questa cuccia per animali domestici è molto morbida, confortevole, delicata sulla pelle, sicura ed ecologica.',
+        'Realizzata in peluche corto di alta qualità e riempita con spugna.',
         14.99,
         '<i class="fa-solid fa-cat"></i>',
         'Piuma',
